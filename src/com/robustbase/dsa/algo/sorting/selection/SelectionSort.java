@@ -1,4 +1,4 @@
-package com.robustbase.dsa.sorting.selection;
+package com.robustbase.dsa.algo.sorting.selection;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package com.robustbase.dsa.sorting.bubble;
+package com.robustbase.dsa.algo.sorting.bubble;
 
 import java.util.Arrays;
 
