@@ -8,10 +8,10 @@ import java.util.Arrays;
  */
 public class BubbleSort {
 
-    public void sort(int[] arr) {
-        int length = arr.length;
-        for (int i = 0; i < length; i++) {
-            for (int j = 0; j < (length - 1) - i; j++) {
+    public static void sort(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < (n - 1) - i; j++) {
                 if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
@@ -26,7 +26,7 @@ public class BubbleSort {
         int[] arr = {4, 2, 9, 7, 3, 5};
 
         //sorting
-        new BubbleSort().sort(arr);
+        sort(arr);
 
         //printing sorted array
         Arrays.stream(arr).forEach(element -> System.out.print(element + "\t"));
